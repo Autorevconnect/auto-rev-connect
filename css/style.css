@@ -2659,3 +2659,53 @@ grid-template-columns:repeat(2,1fr);
 grid-template-columns:1fr;
 }
 }
+/* SUCCESS SECTION */
+
+.success-section{
+padding:120px 8%;
+background:#f7f9fc;
+}
+
+.success-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+margin-top:60px;
+}
+
+.success-card{
+background:#fff;
+padding:50px 30px;
+border-radius:25px;
+text-align:center;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+transition:.4s;
+}
+
+.success-card:hover{
+transform:translateY(-10px);
+}
+
+.success-card h3{
+font-size:52px;
+font-weight:800;
+color:#ff3131;
+margin-bottom:10px;
+}
+
+.success-card p{
+font-size:18px;
+color:#555;
+}
+
+@media(max-width:992px){
+.success-grid{
+grid-template-columns:repeat(2,1fr);
+}
+}
+
+@media(max-width:768px){
+.success-grid{
+grid-template-columns:1fr;
+}
+}
