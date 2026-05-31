@@ -2948,3 +2948,53 @@ grid-template-columns:1fr;
 }
 
 }
+/* ABOUT PAGE */
+
+.about-company{
+padding:120px 8%;
+background:#fff;
+}
+
+.about-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+margin-top:60px;
+}
+
+.about-grid img{
+width:100%;
+border-radius:25px;
+box-shadow:0 20px 40px rgba(0,0,0,.12);
+}
+
+.about-grid h3{
+font-size:38px;
+margin-bottom:20px;
+color:#071b4d;
+}
+
+.about-grid p{
+line-height:1.9;
+margin-bottom:20px;
+color:#555;
+}
+
+.about-grid ul{
+list-style:none;
+padding:0;
+}
+
+.about-grid li{
+padding:10px 0;
+font-weight:600;
+}
+
+@media(max-width:768px){
+
+.about-grid{
+grid-template-columns:1fr;
+}
+
+}
