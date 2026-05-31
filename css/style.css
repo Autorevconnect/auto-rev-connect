@@ -3299,3 +3299,94 @@ grid-template-columns:1fr;
 }
 
 }
+/* CAREERS FINAL */
+
+.career-stats{
+padding:120px 8%;
+background:#ffffff;
+}
+
+.career-stats-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+margin-top:60px;
+}
+
+.career-stat-box{
+background:#fff;
+padding:40px;
+text-align:center;
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.career-stat-box h3{
+font-size:56px;
+color:#ff3131;
+margin-bottom:10px;
+}
+
+.hr-contact{
+padding:120px 8%;
+background:#f8fafc;
+}
+
+.hr-box{
+max-width:900px;
+margin:auto;
+background:#fff;
+padding:50px;
+border-radius:25px;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.hr-box p{
+margin:15px 0;
+}
+
+.hr-buttons{
+margin-top:30px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.careers-cta{
+padding:120px 8%;
+background:#071b4d;
+text-align:center;
+color:#fff;
+}
+
+.careers-cta h2{
+font-size:52px;
+margin-bottom:20px;
+}
+
+.careers-cta p{
+font-size:20px;
+margin-bottom:35px;
+}
+
+@media(max-width:992px){
+
+.career-stats-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:768px){
+
+.career-stats-grid{
+grid-template-columns:1fr;
+}
+
+.careers-cta h2{
+font-size:36px;
+}
+
+}
