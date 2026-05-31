@@ -3525,3 +3525,33 @@ font-size:36px;
 }
 
 }
+/* FAQ PAGE */
+
+.faq-section{
+padding:120px 8%;
+background:#ffffff;
+}
+
+.faq-container{
+max-width:1000px;
+margin:60px auto 0;
+}
+
+.faq-item{
+background:#fff;
+padding:35px;
+margin-bottom:25px;
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.faq-item h3{
+font-size:24px;
+color:#071b4d;
+margin-bottom:15px;
+}
+
+.faq-item p{
+line-height:1.8;
+color:#555;
+}
