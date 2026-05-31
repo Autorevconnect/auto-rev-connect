@@ -2495,3 +2495,48 @@ color:#071b4d;
 color:#666;
 line-height:1.8;
 }
+/* ====================================
+INDUSTRIES SECTION
+==================================== */
+
+.industries-section{
+padding:120px 8%;
+background:#ffffff;
+}
+
+.industry-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+margin-top:60px;
+}
+
+.industry-card{
+background:#fff;
+padding:40px;
+border-radius:25px;
+text-align:center;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+transition:.4s;
+border-bottom:5px solid #ff3434;
+}
+
+.industry-card:hover{
+transform:translateY(-12px);
+}
+
+.industry-icon{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.industry-card h3{
+font-size:24px;
+margin-bottom:15px;
+color:#071b4d;
+}
+
+.industry-card p{
+color:#666;
+line-height:1.8;
+}
