@@ -3390,3 +3390,138 @@ font-size:36px;
 }
 
 }
+/* CONTACT PAGE */
+
+.contact-page{
+padding:120px 8%;
+background:#ffffff;
+}
+
+.contact-info-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+margin-top:60px;
+}
+
+.contact-info-card{
+background:#fff;
+padding:35px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.contact-form-section{
+padding:120px 8%;
+background:#f8fafc;
+}
+
+.contact-form-box{
+max-width:900px;
+margin:auto;
+background:#fff;
+padding:50px;
+border-radius:25px;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.contact-form-box form{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.contact-form-box input,
+.contact-form-box textarea{
+padding:18px;
+border:1px solid #ddd;
+border-radius:12px;
+font-size:16px;
+}
+
+.contact-form-box button{
+background:#ff3131;
+color:#fff;
+border:none;
+padding:18px;
+border-radius:12px;
+font-size:18px;
+font-weight:700;
+cursor:pointer;
+}
+
+.map-section{
+padding:120px 8%;
+background:#ffffff;
+}
+
+.map-box{
+overflow:hidden;
+border-radius:25px;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.business-hours{
+padding:120px 8%;
+background:#f8fafc;
+}
+
+.hours-card{
+max-width:800px;
+margin:auto;
+background:#fff;
+padding:40px;
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.hour-row{
+display:flex;
+justify-content:space-between;
+padding:15px 0;
+border-bottom:1px solid #eee;
+}
+
+.contact-cta{
+padding:120px 8%;
+background:#071b4d;
+color:#fff;
+text-align:center;
+}
+
+.contact-cta h2{
+font-size:52px;
+margin-bottom:20px;
+}
+
+.contact-cta p{
+font-size:20px;
+max-width:800px;
+margin:0 auto 40px;
+}
+
+@media(max-width:992px){
+
+.contact-info-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:768px){
+
+.contact-info-grid{
+grid-template-columns:1fr;
+}
+
+.hour-row{
+flex-direction:column;
+gap:10px;
+}
+
+.contact-cta h2{
+font-size:36px;
+}
+
+}
