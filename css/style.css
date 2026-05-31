@@ -2806,3 +2806,53 @@ grid-template-columns:repeat(2,1fr);
 grid-template-columns:1fr;
 }
 }
+/* CTA SECTION */
+
+.cta-section{
+padding:120px 8%;
+background:#071b4d;
+text-align:center;
+color:#fff;
+}
+
+.cta-section h2{
+font-size:56px;
+margin-bottom:20px;
+}
+
+.cta-section p{
+font-size:20px;
+max-width:800px;
+margin:0 auto 40px;
+}
+
+.cta-buttons{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.cta-btn,
+.cta-btn-outline{
+padding:18px 40px;
+border-radius:50px;
+text-decoration:none;
+font-weight:700;
+transition:.4s;
+}
+
+.cta-btn{
+background:#ff3131;
+color:#fff;
+}
+
+.cta-btn-outline{
+border:2px solid #fff;
+color:#fff;
+}
+
+.cta-btn:hover,
+.cta-btn-outline:hover{
+transform:translateY(-5px);
+}
