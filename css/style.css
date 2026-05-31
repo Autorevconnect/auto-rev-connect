@@ -2998,3 +2998,98 @@ grid-template-columns:1fr;
 }
 
 }
+/* ABOUT PAGE PART 2 */
+
+.mission-vision{
+padding:120px 8%;
+background:#f8fafc;
+}
+
+.mv-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:40px;
+}
+
+.mv-card{
+background:#fff;
+padding:50px;
+border-radius:25px;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.mv-icon{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.mv-card h3{
+font-size:32px;
+margin-bottom:20px;
+color:#071b4d;
+}
+
+.core-values{
+padding:120px 8%;
+background:#fff;
+}
+
+.values-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+margin-top:60px;
+}
+
+.value-card{
+background:#fff;
+padding:35px;
+text-align:center;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.value-icon{
+font-size:50px;
+margin-bottom:15px;
+}
+
+.why-about{
+padding:120px 8%;
+background:#071b4d;
+}
+
+.why-about .section-heading h2{
+color:#fff;
+}
+
+.why-about-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:30px;
+margin-top:60px;
+}
+
+.why-about-card{
+background:rgba(255,255,255,.08);
+padding:40px;
+border-radius:20px;
+color:#fff;
+backdrop-filter:blur(10px);
+}
+
+.why-about-card h3{
+margin-bottom:15px;
+font-size:24px;
+}
+
+@media(max-width:992px){
+
+.mv-grid,
+.why-about-grid,
+.values-grid{
+grid-template-columns:1fr;
+}
+
+}
