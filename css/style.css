@@ -3215,3 +3215,87 @@ grid-template-columns:1fr;
 }
 
 }
+/* CAREERS PAGE PART 2 */
+
+.hiring-section{
+padding:120px 8%;
+background:#071b4d;
+color:#fff;
+}
+
+.hiring-banner{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+margin-top:60px;
+}
+
+.hiring-banner img{
+width:100%;
+border-radius:25px;
+}
+
+.hiring-left h3{
+font-size:36px;
+margin-bottom:25px;
+}
+
+.hiring-left ul{
+list-style:none;
+padding:0;
+}
+
+.hiring-left li{
+padding:12px 0;
+font-size:18px;
+}
+
+.career-form-section{
+padding:120px 8%;
+background:#ffffff;
+}
+
+.career-form{
+max-width:800px;
+margin:auto;
+}
+
+.career-form form{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.career-form input,
+.career-form select,
+.career-form textarea{
+padding:18px;
+border:1px solid #ddd;
+border-radius:12px;
+font-size:16px;
+}
+
+.career-form button{
+background:#ff3131;
+color:#fff;
+border:none;
+padding:18px;
+border-radius:12px;
+font-size:18px;
+font-weight:700;
+cursor:pointer;
+}
+
+.office-culture{
+padding:120px 8%;
+background:#f8fafc;
+}
+
+@media(max-width:992px){
+
+.hiring-banner{
+grid-template-columns:1fr;
+}
+
+}
