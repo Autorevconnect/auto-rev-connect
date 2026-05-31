@@ -2410,3 +2410,42 @@ margin-bottom:15px;
 color:#666;
 line-height:1.8;
 }
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+}
+
+.hero-stats{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+margin-top:40px;
+}
+
+.hero-stat{
+text-align:center;
+}
+
+.hero-stat h3{
+font-size:42px;
+color:#ff3434;
+margin-bottom:5px;
+}
+
+.hero-stat p{
+font-size:14px;
+color:#fff;
+}
+
+@media(max-width:768px){
+
+.hero-stats{
+grid-template-columns:repeat(2,1fr);
+}
+
+.hero-content h1{
+font-size:55px;
+}
+
+}
