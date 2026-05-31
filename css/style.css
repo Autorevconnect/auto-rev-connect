@@ -3093,3 +3093,63 @@ grid-template-columns:1fr;
 }
 
 }
+/* ABOUT PAGE FINAL */
+
+.about-gallery{
+padding:120px 8%;
+background:#f8fafc;
+}
+
+.company-stats{
+padding:120px 8%;
+background:#ffffff;
+}
+
+.stat-box{
+background:#fff;
+padding:40px;
+text-align:center;
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.stat-box h3{
+font-size:56px;
+color:#ff3131;
+margin-bottom:10px;
+}
+
+.stat-box p{
+font-size:18px;
+color:#555;
+}
+
+.about-cta{
+padding:120px 8%;
+background:#071b4d;
+text-align:center;
+color:#fff;
+}
+
+.about-cta h2{
+font-size:56px;
+margin-bottom:20px;
+}
+
+.about-cta p{
+font-size:20px;
+max-width:850px;
+margin:0 auto 40px;
+}
+
+@media(max-width:768px){
+
+.about-cta h2{
+font-size:36px;
+}
+
+.stat-box h3{
+font-size:42px;
+}
+
+}
