@@ -2342,3 +2342,71 @@ font-size:38px;
 }
 
 }
+/* ====================================
+SERVICES SECTION
+==================================== */
+
+.services-section{
+padding:120px 8%;
+background:#ffffff;
+}
+
+.section-header{
+text-align:center;
+max-width:900px;
+margin:auto auto 70px;
+}
+
+.section-header span{
+color:#ff3434;
+font-weight:700;
+letter-spacing:2px;
+}
+
+.section-header h2{
+font-size:52px;
+margin:20px 0;
+color:#071b4d;
+}
+
+.section-header p{
+font-size:18px;
+color:#666;
+line-height:1.8;
+}
+
+.services-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:35px;
+}
+
+.service-card{
+background:white;
+padding:40px;
+border-radius:25px;
+box-shadow:0 20px 40px rgba(0,0,0,.08);
+transition:all .4s ease;
+border-top:5px solid #ff3434;
+}
+
+.service-card:hover{
+transform:translateY(-10px);
+box-shadow:0 30px 60px rgba(0,0,0,.15);
+}
+
+.service-icon{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.service-card h3{
+font-size:24px;
+color:#071b4d;
+margin-bottom:15px;
+}
+
+.service-card p{
+color:#666;
+line-height:1.8;
+}
